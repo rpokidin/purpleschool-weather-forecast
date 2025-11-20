@@ -1,0 +1,33 @@
+:root {
+  --white: #FFF;
+  --black: #000;
+  --bg-main: #343D4B;
+  --bg-card: #222831;
+  --bg-card-day: #272E37;
+  --bg-card-day-h: #3A434F;
+  --bg-card-day-shadow: box-shadow: 1px 2px 4px 0px #222831; 
+  --bg-input: var(--bg-card-day);
+  --color-placeholder: #3F4958;
+  --btn-default: linear-gradient(90.8deg, rgba(144, 217, 224, 0.9) 0.2%, rgba(84, 96, 230, 0.9) 100%);
+  --btn-hover: linear-gradient(256.33deg, rgba(144, 217, 224, 0.9) 9.04%, rgba(84, 96, 230, 0.9) 92.2%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--bg-main);
+  color: var(--white);
+}
+
+button {
+  border: 0;
+  cursor: pointer;
+}
